@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LAK PDF - Online PDF Tools</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-YOUR_CLIENT_ID_HERE" crossorigin="anonymous"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            colors: {
+              primary: {
+                50: '#fff1f0',
+                100: '#ffccc7',
+                200: '#ffa39e',
+                300: '#ff7875',
+                400: '#ff4d4f', // Base accent color
+                500: '#f5222d',
+                600: '#cf1322',
+                700: '#a8071a',
+                800: '#820014',
+                900: '#5c0011',
+              },
+              slate: {
+                850: '#1e293b', // Custom dark
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      /* Hide scrollbar for clean UI in some containers */
+      .no-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      .no-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "lucide-react": "https://esm.sh/lucide-react@^0.561.0",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.10.1",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "pdf-lib": "https://esm.sh/pdf-lib@^1.17.1",
+    "uuid": "https://esm.sh/uuid@^13.0.0",
+    "jszip": "https://esm.sh/jszip@3.10.1",
+    "pdfjs-dist": "https://esm.sh/pdfjs-dist@3.11.174",
+    "pdfjs-dist/": "https://esm.sh/pdfjs-dist@3.11.174/",
+    "tesseract.js": "https://esm.sh/tesseract.js@5.0.5",
+    "docx": "https://esm.sh/docx@7.8.2",
+    "file-saver": "https://esm.sh/file-saver@2.0.5",
+    "xlsx": "https://esm.sh/xlsx@0.18.5",
+    "pptxgenjs": "https://esm.sh/pptxgenjs@3.12.0",
+    "mammoth": "https://esm.sh/mammoth@1.6.0",
+    "jspdf": "https://esm.sh/jspdf@2.5.1",
+    "html2canvas": "https://esm.sh/html2canvas@1.4.1"
+  }
+}
+</script>
+</head>
+  <body class="bg-gray-50 text-slate-800">
+    <div id="root"></div>
+  </body>
+</html>
